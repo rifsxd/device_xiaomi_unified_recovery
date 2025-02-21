@@ -107,7 +107,7 @@ TW_INCLUDE_FASTBOOTD    := true
 TWRP_INCLUDE_LOGCAT     := true
 TW_INCLUDE_PYTHON       := true
 TW_NO_SCREEN_BLANK      := true
-TW_FRAMERATE            := 60
+TW_FRAMERATE            := 120
 
 # TWRP - Partition tools
 # PBRP source does not offer TW_ENABLE_ALL_PARTITION_TOOLS at the moment
