@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/tapas
+DEVICE_PATH := device/xiaomi/sapphire
 
 # Configure Virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
@@ -92,7 +92,7 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/qcom/opensource/commonsys-intf/display
 
 # TWRP - Specifics
-TW_DEVICE_VERSION       := chickendrop89
+TW_DEVICE_VERSION       := rifsxd
 TW_THEME                := portrait_hdpi
 TW_DEFAULT_LANGUAGE     := en
 TW_USE_TOOLBOX          := true

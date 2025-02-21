@@ -31,7 +31,7 @@ setdevicemodel() {
 
 process_device() {
 	dev=$(getprop "ro.boot.hwname");
-	[ -z "$dev" ] && dev=tapas;
+	[ -z "$dev" ] && dev=sapphire;
 
 	setdevicename "$dev";
 
@@ -53,9 +53,9 @@ process_device() {
 		setdevicemodel "23129RAA4G";
 	;;
 	*)
-        echo "I:Variant-Script: Loaded tapas variant" | tee -a $LOG_PATH
-		setdevicename "tapas";
-		setdevicemodel "23021RAAEG";
+        echo "I:Variant-Script: Loaded sapphire variant" | tee -a $LOG_PATH
+		setdevicename "sapphire";
+		setdevicemodel "23129RAA4G";
 	;;
 	esac
 }
