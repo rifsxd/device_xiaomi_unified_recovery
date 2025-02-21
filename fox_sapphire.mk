@@ -1,5 +1,5 @@
 # OrangeFox maintainer - this will be shown on about screen
-OF_MAINTAINER := chickendrop89
+OF_MAINTAINER := rifsxd
 
 # Screen settings
 OF_SCREEN_H := 2400

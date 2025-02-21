@@ -31,7 +31,7 @@ setdevicemodel() {
 
 process_device() {
 	dev=$(getprop "ro.boot.hwname");
-	[ -z "$dev" ] && dev=tapas;
+	[ -z "$dev" ] && dev=sapphire;
 
 	setdevicename "$dev";
 
