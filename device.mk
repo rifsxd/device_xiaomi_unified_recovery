@@ -113,10 +113,11 @@ TW_FRAMERATE            := 120
 # TWRP - Partition tools
 TW_ENABLE_ALL_PARTITION_TOOLS := true
 
-# TWRP - Notch offsets
+# TWRP - Punch hole alignments
 TW_STATUS_ICONS_ALIGN := center
-TW_Y_OFFSET := 99
-TW_H_OFFSET := -99
+TW_CUSTOM_CPU_POS := "50"
+TW_CUSTOM_CLOCK_POS := "340" 
+TW_CUSTOM_BATTERY_POS := "800"
 
 # Blacklist Goodix fingerprint. There's no reason to include this input in recovery
 TW_INPUT_BLACKLIST := "uinput-goodix"
